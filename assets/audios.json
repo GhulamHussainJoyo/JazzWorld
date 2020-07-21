@@ -1,0 +1,34 @@
+{
+  "resultCode": "00",
+  "msg": "Success from cache",
+  "execTime": "448",
+  "data": {
+    "pageTitle": "The Quran",
+    "streamList": [
+      {
+        "sortOrder": "1",
+        "itemName": "Surah Faitha",
+        "url": "http://119.73.65.150/jazz01/pub/media/QuranStream/20200511123244_01-surah-fatiha.mp3",
+        "totalTime": "00:38"
+      },
+      {
+        "sortOrder": "2",
+        "itemName": "Test-audio-for-stream",
+        "url": "http://119.73.65.150/jazz01/pub/media/QuranStream/20200511123244_01-surah-fatiha.mp3",
+        "totalTime": "00:38"
+      },
+      {
+        "sortOrder": "4",
+        "itemName": "Test22",
+        "url": "http://119.73.65.150/jazz01/pub/media/QuranStream/20200511123244_01-surah-fatiha.mp3",
+        "totalTime": "00:38"
+      },
+      {
+        "sortOrder": "2",
+        "itemName": "Test2244",
+        "url": "http://119.73.65.150/jazz01/pub/media/QuranStream/20200511123244_01-surah-fatiha.mp3",
+        "totalTime": "00:38"
+      }
+    ]
+  }
+}

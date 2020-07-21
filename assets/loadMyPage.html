@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<title>React app</title>
+</head>
+<body>
+<div id="root"/>
+<script>
+var option = {
+msisdn: "92300XXXXXXX",
+msisdnList: ["92300XXXXXXX", "92300XXXXXXX", "92300XXXXXXX"],
+auth: "166b4d73-4333-4b8d-8356-16b3d7abd071",
+channel: "JazzWorldChatbot",
+user_pic: "https://usrpic.jazz.com.pk/usr/1121/pic.jpg",
+type: "prepaid",
+network: "jazz",
+jazzWorldSessionID: "44e46627-e34e-4f16-a3c4-ec46f1e38946"
+};
+var script_tag = document.getElementById("root");
+script_tag.setAttribute("jsonData", JSON.stringify(option));
+</script>
+<script type="text/javascript" src="https://jazzchatbot.jazz.com.pk/chatbot/ui/script/bundle.js"></script>
+</body>
+</html>
